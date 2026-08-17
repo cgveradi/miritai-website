@@ -1,0 +1,34 @@
+{
+  "nav": { "services": "Services", "approach": "Approach", "work": "Work", "start": "Start a project" },
+  "home": {
+    "eyebrow": "Data, AI & Software Studio",
+    "leadA": "Small systems.",
+    "leadB": "Serious leverage.",
+    "intro": "We build practical data tools, focused automations, and lightweight web apps that help small teams do better work.",
+    "cta": "Start the conversation",
+    "services": "View services",
+    "ticker": ["Data clarity", "Useful dashboards", "Focused automation", "Internal tools", "Lightweight web apps", "Simple integrations"],
+    "buildEyebrow": "What we build", "buildTitle": "Useful systems, kept deliberately small.", "buildIntro": "Start with one bottleneck. Every engagement should produce something your team can use—not a transformation slide deck.",
+    "service1Title": "Data analysis & dashboards", "service1Text": "Clean up scattered data and turn it into reporting, KPIs, and views that support real weekly decisions.",
+    "service2Title": "Practical automation", "service2Text": "Remove one repetitive task with a focused workflow or assistant instead of forcing AI into everything.",
+    "service3Title": "Lightweight web apps", "service3Text": "Simple internal tools, forms, portals, and prototypes shaped around one clear job.",
+    "service4Title": "Simple integrations", "service4Text": "Connect the tools you already use so information moves with fewer copy-and-paste steps.",
+    "approachEyebrow": "How we work", "approachTitle": "A small first version, built around reality.", "approachIntro": "Four checkpoints keep the work understandable, useful, and maintainable.",
+    "step1Label": "01 · LISTEN", "step1Title": "Find the friction", "step1Text": "We look at how the task works today and identify what is genuinely slowing the team down.",
+    "step2Label": "02 · SCOPE", "step2Title": "Choose the smallest fix", "step2Text": "We define one useful outcome, the boundaries, and what should deliberately wait.",
+    "step3Label": "03 · BUILD", "step3Title": "Ship something usable", "step3Text": "A working version arrives early and improves through short feedback cycles.",
+    "step4Label": "04 · HANDOFF", "step4Title": "Keep it understandable", "step4Text": "The result is documented and designed so it does not become another fragile dependency.",
+    "workEyebrow": "Good first projects", "workTitle": "Where we can start", "workIntro": "Concrete, bounded projects that can prove their value before anything grows.",
+    "project1Title": "A weekly reporting dashboard", "project1Text": "Bring key numbers from spreadsheets or exports into one dependable view.",
+    "project2Title": "A document-processing workflow", "project2Text": "Extract, classify, or route recurring documents with a human still in control.",
+    "project3Title": "A focused internal tool", "project3Text": "Replace a manual tracker or awkward process with a small purpose-built interface.",
+    "closingEyebrow": "Start small. Make it useful.", "closingTitle": "What could work better in your business?", "footerText": "Practical data, automation, and software for small teams.", "footerServices": "Services", "footerStudio": "Studio", "footerContact": "Get in touch", "rights": "All rights reserved."
+  },
+  "contact": {
+    "eyebrow": "Start a project", "title": "Tell us what is getting in the way.",
+    "intro": "A useful first project can be small: one report, one repetitive task, or one internal tool. Tell us what happens today and what you would like to improve.",
+    "small": "We usually reply within two working days.", "name": "Your name", "email": "Email", "company": "Company (optional)",
+    "project": "What would you like to improve?", "submit": "Open your email", "formNote": "This opens a prepared message in your email app. Nothing is stored on this website yet.",
+    "emailSubject": "MIRITAI project enquiry"
+  }
+}
