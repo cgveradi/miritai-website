@@ -4,7 +4,7 @@ import { Link } from "@/i18n/navigation";
 import ScrollReveal from "@/components/ScrollReveal";
 
 function SystemMap() {
-  return <div className="system-map" aria-hidden="true"><div className="map-grid"/><div className="orbit"><i/></div><div className="node node-a"><i/><i/><i/><i/><i/><i/></div><div className="node node-b"><i/><i/><i/></div><div className="node node-c"><i/><i/></div><div className="node node-d"><i/><i/><i/><i/><i/><i/></div><div className="wire wire-a"><span/></div><div className="wire wire-b"><span/></div><div className="wire wire-c"><span/></div></div>;
+  return <div className="system-map" aria-hidden="true"><div className="map-grid"/><div className="signal-orbit signal-orbit-a"/><div className="signal-orbit signal-orbit-b"/><div className="sputnik"><div className="sputnik-core"><i/><i/><i/></div><span className="antenna antenna-a"/><span className="antenna antenna-b"/><span className="antenna antenna-c"/><span className="antenna antenna-d"/><b>01</b></div><div className="node node-a"><i/><i/><i/><i/><i/><i/></div><div className="node node-b"><i/><i/><i/></div><div className="node node-c"><i/><i/></div><div className="node node-d"><i/><i/><i/><i/><i/><i/></div><div className="wire wire-a"><span/></div><div className="wire wire-b"><span/></div><div className="wire wire-c"><span/></div></div>;
 }
 
 export default function Home() {
