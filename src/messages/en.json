@@ -28,7 +28,7 @@
     "eyebrow": "Start a project", "title": "Tell us what is getting in the way.",
     "intro": "A useful first project can be small: one report, one repetitive task, or one internal tool. Tell us what happens today and what you would like to improve.",
     "small": "We usually reply within two working days.", "name": "Your name", "email": "Email", "company": "Company (optional)",
-    "project": "What would you like to improve?", "submit": "Open your email", "formNote": "This opens a prepared message in your email app. Nothing is stored on this website yet.",
+    "project": "What would you like to improve?", "submit": "Send email", "formNote": "This opens a prepared message in your email app. Nothing is stored on this website yet.",
     "emailSubject": "MIRITAI project enquiry"
   }
 }

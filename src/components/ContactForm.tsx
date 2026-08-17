@@ -24,6 +24,5 @@ export default function ContactForm() {
     <label>{t("company")}<input name="company" autoComplete="organization"/></label>
     <label>{t("project")}<textarea name="project" rows={7} required/></label>
     <button className="button button-solid" type="submit">{t("submit")} <span aria-hidden="true">↗</span></button>
-    <p>{t("formNote")}</p>
   </form>;
 }

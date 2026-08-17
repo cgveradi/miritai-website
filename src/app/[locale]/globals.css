@@ -170,3 +170,17 @@
 
 @media(max-width:900px){.sputnik{left:35%;transform:scale(.82)}.signal-orbit{left:16%;transform:scale(.82)}}
 @media(prefers-reduced-motion:reduce){.sputnik,.antenna::after,.signal-orbit,.signal-orbit-a::before{animation:none}}
+
+/* Contact layout: closer conversation between the introduction and form. */
+.contact-page .wrap{width:min(100% - 64px,1320px)}
+.contact-grid{grid-template-columns:minmax(0,1.08fr) minmax(410px,.72fr);gap:clamp(48px,6vw,88px)}
+.contact-page h1{max-width:720px;font-size:clamp(3.4rem,5.7vw,6rem)}
+.contact-small{margin-top:30px}
+@media(max-width:900px){.contact-page .wrap{width:min(100% - 36px,1180px)}.contact-grid{grid-template-columns:1fr;gap:50px}.contact-page h1{max-width:760px}}
+
+/* Closing invitation: centered message, action anchored at the right. */
+.closing{display:grid;grid-template-columns:1fr;align-items:center}
+.closing .eyebrow{justify-self:start}
+.closing h2{justify-self:center;max-width:1120px;text-align:center}
+.closing .button-dark{justify-self:end}
+@media(max-width:700px){.closing h2{text-align:left}.closing .button-dark{justify-self:start}}
