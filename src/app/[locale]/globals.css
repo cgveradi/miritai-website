@@ -192,3 +192,9 @@
 .footer-mirit-link{flex:0 0 auto;background:color-mix(in srgb,var(--card) 76%,transparent)}
 .compact-footer .footer-bottom{padding-top:24px}
 @media(max-width:650px){.footer-main{align-items:flex-start;flex-direction:column;padding:38px 0}.compact-footer .footer-bottom{gap:12px}.compact-footer .footer-bottom span:last-child{max-width:260px;line-height:1.5}}
+
+/* Use the full contact composition instead of leaving the introduction top-heavy. */
+.contact-grid{align-items:stretch}
+.contact-grid>section{display:flex;min-height:680px;flex-direction:column;padding:12px 0}
+.contact-grid>section .contact-small{margin-top:auto;padding-top:64px}
+@media(max-width:900px){.contact-grid>section{min-height:auto}.contact-grid>section .contact-small{margin-top:30px;padding-top:0}}
