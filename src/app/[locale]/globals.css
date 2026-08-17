@@ -184,3 +184,11 @@
 .closing h2{justify-self:center;max-width:1120px;text-align:center}
 .closing .button-dark{justify-self:end}
 @media(max-width:700px){.closing h2{text-align:left}.closing .button-dark{justify-self:start}}
+
+/* Compact ecosystem footer */
+.compact-footer{padding:0 0 34px}
+.footer-main{display:flex;align-items:center;justify-content:space-between;gap:40px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:48px 0}
+.footer-main>div p{max-width:390px;margin:14px 0 0;color:var(--muted);font-size:.9rem;line-height:1.55}
+.footer-mirit-link{flex:0 0 auto;background:color-mix(in srgb,var(--card) 76%,transparent)}
+.compact-footer .footer-bottom{padding-top:24px}
+@media(max-width:650px){.footer-main{align-items:flex-start;flex-direction:column;padding:38px 0}.compact-footer .footer-bottom{gap:12px}.compact-footer .footer-bottom span:last-child{max-width:260px;line-height:1.5}}
