@@ -28,7 +28,7 @@ function DecodedNavLabel({ label }: { label: string }) {
 export default function Navbar() {
   const t = useTranslations("nav");
   const [open,setOpen] = useState(false);
-  const items = [{ href: "/#services", label: t("services") },{ href: "/#approach", label: t("approach") },{ href: "/#work", label: t("work") }];
+  const items = [{ href: "/#services", label: t("services") },{ href: "/#approach", label: t("approach") }];
   useEffect(() => {
     if (!open) return;
     const close = (event: KeyboardEvent) => { if (event.key === "Escape") setOpen(false); };

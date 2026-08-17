@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="13" fill="#08090a"/><path fill="#f4f4f6" transform="translate(-4 6) scale(.78)" d="M11 48v-3.25l4.7-.8V20.1l-4.7-.85V16h13.1l8.45 21.05L40.85 16H53v3.25l-4.65.85v23.85l4.65.8V48H36.2v-3.25l4.45-.8V23.4L30.8 48h-2.55L18.4 23.5v20.45l4.45.8V48H11Z"/><text x="39" y="39" fill="#5fd9d4" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="800" letter-spacing="-1">AI</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs><linearGradient id="m" x1="12" y1="14" x2="52" y2="52" gradientUnits="userSpaceOnUse"><stop stop-color="#5fd9d4"/><stop offset="1" stop-color="#9a8cf0"/></linearGradient></defs>
+  <rect width="64" height="64" rx="14" fill="#08090a"/>
+  <path fill="url(#m)" d="M9 49v-4l5-1V20l-5-1v-4h14l9 22 9-22h14v4l-5 1v24l5 1v4H37v-4l5-1V25L34 49h-5l-8-24v19l5 1v4H9Z"/>
+</svg>
