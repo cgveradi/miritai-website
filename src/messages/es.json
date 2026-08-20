@@ -1,0 +1,34 @@
+{
+  "nav": { "services": "Servicios", "approach": "Enfoque", "work": "Proyectos", "start": "Hablemos" },
+  "home": {
+    "eyebrow": "Estudio de datos, IA y software",
+    "leadA": "Sistemas pequeños.",
+    "leadB": "Un impacto enorme.",
+    "intro": "Creamos herramientas de datos prácticas, automatizaciones específicas y aplicaciones web ligeras que ayudan a los equipos pequeños a trabajar mejor.",
+    "cta": "Empezar la conversación",
+    "services": "Ver servicios",
+    "ticker": ["Datos claros", "Paneles útiles", "Automatización específica", "Herramientas internas", "Aplicaciones web ligeras", "Integraciones sencillas"],
+    "buildEyebrow": "Lo que creamos", "buildTitle": "Sistemas útiles, deliberadamente pequeños.", "buildIntro": "Empezamos por un único obstáculo. Cada colaboración debe producir algo que tu equipo pueda usar, no una presentación sobre transformación.",
+    "service1Title": "Análisis de datos y paneles", "service1Text": "Ordenamos datos dispersos y los convertimos en informes, KPI y vistas que facilitan decisiones semanales reales.",
+    "service2Title": "Automatización práctica", "service2Text": "Eliminamos una tarea repetitiva con un flujo de trabajo o asistente específico, sin intentar aplicar IA a todo.",
+    "service3Title": "Aplicaciones web ligeras", "service3Text": "Herramientas internas, formularios, portales y prototipos sencillos diseñados para una tarea concreta.",
+    "service4Title": "Integraciones sencillas", "service4Text": "Conectamos las herramientas que ya utilizas para que la información circule con menos pasos manuales.",
+    "approachEyebrow": "Cómo trabajamos", "approachTitle": "Una primera versión pequeña, creada para la realidad.", "approachIntro": "Cuatro puntos de control mantienen el trabajo comprensible, útil y fácil de mantener.",
+    "step1Label": "01 · ESCUCHAR", "step1Title": "Encontrar el obstáculo", "step1Text": "Observamos cómo se realiza hoy la tarea e identificamos qué está frenando realmente al equipo.",
+    "step2Label": "02 · DEFINIR", "step2Title": "Elegir la solución mínima", "step2Text": "Definimos un resultado útil, sus límites y lo que conviene dejar conscientemente para después.",
+    "step3Label": "03 · CREAR", "step3Title": "Entregar algo utilizable", "step3Text": "La primera versión funcional llega pronto y mejora mediante ciclos breves de comentarios.",
+    "step4Label": "04 · TRANSFERIR", "step4Title": "Mantenerlo comprensible", "step4Text": "El resultado se documenta y diseña para que no se convierta en otra dependencia frágil.",
+    "workEyebrow": "Buenos primeros proyectos", "workTitle": "Por dónde podemos empezar", "workIntro": "Proyectos concretos y acotados que demuestran su valor antes de crecer.",
+    "project1Title": "Un panel de informes semanales", "project1Text": "Reunir cifras clave de hojas de cálculo o exportaciones en una única vista fiable.",
+    "project2Title": "Un flujo de procesamiento de documentos", "project2Text": "Extraer, clasificar o dirigir documentos recurrentes manteniendo el control humano.",
+    "project3Title": "Una herramienta interna específica", "project3Text": "Sustituir un seguimiento manual o un proceso incómodo por una pequeña interfaz a medida.",
+    "closingEyebrow": "Empieza con poco. Hazlo útil.", "closingTitle": "¿Qué podría funcionar mejor en tu empresa?", "footerText": "Datos, automatización y software prácticos para equipos pequeños.", "footerServices": "Servicios", "footerStudio": "Estudio", "footerContact": "Contacto", "miritLink": "Visitar MIRIT.org", "rights": "Todos los derechos reservados."
+  },
+  "contact": {
+    "eyebrow": "Iniciar un proyecto", "title": "Cuéntanos qué se interpone en tu camino.",
+    "intro": "Un buen primer proyecto puede ser pequeño: un informe, una tarea repetitiva o una herramienta interna. Cuéntanos cómo funciona hoy y qué te gustaría mejorar.",
+    "small": "Solemos responder en un plazo de dos días laborables.", "name": "Tu nombre", "email": "Correo electrónico", "company": "Empresa (opcional)",
+    "project": "¿Qué te gustaría mejorar?", "submit": "Enviar correo", "formNote": "Esto abre un mensaje preparado en tu aplicación de correo. Este sitio web todavía no almacena ningún dato.",
+    "emailSubject": "Consulta sobre un proyecto MIRITAI"
+  }
+}

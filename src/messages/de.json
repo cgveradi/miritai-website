@@ -1,0 +1,34 @@
+{
+  "nav": { "services": "Leistungen", "approach": "Vorgehen", "work": "Projekte", "start": "Kontakt" },
+  "home": {
+    "eyebrow": "Studio für Daten, KI und Software",
+    "leadA": "Kleine Systeme.",
+    "leadB": "Große Wirkung.",
+    "intro": "Wir entwickeln praktische Datenwerkzeuge, gezielte Automatisierungen und schlanke Webanwendungen, mit denen kleine Teams besser arbeiten.",
+    "cta": "Gespräch beginnen",
+    "services": "Leistungen ansehen",
+    "ticker": ["Klare Daten", "Nützliche Dashboards", "Gezielte Automatisierung", "Interne Werkzeuge", "Schlanke Webanwendungen", "Einfache Integrationen"],
+    "buildEyebrow": "Was wir entwickeln", "buildTitle": "Nützliche Systeme, bewusst klein gehalten.", "buildIntro": "Wir beginnen mit einem einzigen Engpass. Jede Zusammenarbeit soll etwas hervorbringen, das Ihr Team wirklich nutzen kann – keine Folien über Transformation.",
+    "service1Title": "Datenanalyse und Dashboards", "service1Text": "Wir ordnen verstreute Daten und machen daraus Berichte, Kennzahlen und Ansichten für echte wöchentliche Entscheidungen.",
+    "service2Title": "Praktische Automatisierung", "service2Text": "Wir beseitigen eine wiederkehrende Aufgabe mit einem gezielten Ablauf oder Assistenten, statt KI in alles hineinzuzwingen.",
+    "service3Title": "Schlanke Webanwendungen", "service3Text": "Einfache interne Werkzeuge, Formulare, Portale und Prototypen für eine klar umrissene Aufgabe.",
+    "service4Title": "Einfache Integrationen", "service4Text": "Wir verbinden Ihre vorhandenen Werkzeuge, damit Informationen mit weniger Kopieren und Einfügen weitergegeben werden.",
+    "approachEyebrow": "Wie wir arbeiten", "approachTitle": "Eine kleine erste Version, an der Realität ausgerichtet.", "approachIntro": "Vier Etappen sorgen dafür, dass die Arbeit verständlich, nützlich und wartbar bleibt.",
+    "step1Label": "01 · ZUHÖREN", "step1Title": "Reibung finden", "step1Text": "Wir betrachten den heutigen Ablauf und finden heraus, was das Team tatsächlich ausbremst.",
+    "step2Label": "02 · ABGRENZEN", "step2Title": "Die kleinste Lösung wählen", "step2Text": "Wir definieren ein nützliches Ergebnis, seine Grenzen und was bewusst bis später warten soll.",
+    "step3Label": "03 · UMSETZEN", "step3Title": "Etwas Nutzbares liefern", "step3Text": "Eine funktionierende Version entsteht früh und wird in kurzen Feedbackzyklen verbessert.",
+    "step4Label": "04 · ÜBERGEBEN", "step4Title": "Verständlich halten", "step4Text": "Das Ergebnis wird dokumentiert und so gestaltet, dass keine weitere fragile Abhängigkeit entsteht.",
+    "workEyebrow": "Gute erste Projekte", "workTitle": "Womit wir beginnen können", "workIntro": "Konkrete, klar begrenzte Projekte, die ihren Wert beweisen, bevor sie wachsen.",
+    "project1Title": "Ein Dashboard für Wochenberichte", "project1Text": "Wichtige Zahlen aus Tabellen oder Exporten in einer verlässlichen Ansicht zusammenführen.",
+    "project2Title": "Ein Ablauf zur Dokumentenverarbeitung", "project2Text": "Wiederkehrende Dokumente extrahieren, klassifizieren oder weiterleiten – mit einem Menschen in der Kontrolle.",
+    "project3Title": "Ein gezieltes internes Werkzeug", "project3Text": "Eine manuelle Übersicht oder einen umständlichen Prozess durch eine kleine, maßgeschneiderte Oberfläche ersetzen.",
+    "closingEyebrow": "Klein anfangen. Nützlich machen.", "closingTitle": "Was könnte in Ihrem Unternehmen besser funktionieren?", "footerText": "Praktische Datenlösungen, Automatisierung und Software für kleine Teams.", "footerServices": "Leistungen", "footerStudio": "Studio", "footerContact": "Kontakt", "miritLink": "MIRIT.org besuchen", "rights": "Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "eyebrow": "Projekt starten", "title": "Erzählen Sie uns, was Sie ausbremst.",
+    "intro": "Ein gutes erstes Projekt kann klein sein: ein Bericht, eine wiederkehrende Aufgabe oder ein internes Werkzeug. Beschreiben Sie uns den heutigen Ablauf und was Sie verbessern möchten.",
+    "small": "Wir antworten in der Regel innerhalb von zwei Werktagen.", "name": "Ihr Name", "email": "E-Mail", "company": "Unternehmen (optional)",
+    "project": "Was möchten Sie verbessern?", "submit": "E-Mail senden", "formNote": "Dadurch wird eine vorbereitete Nachricht in Ihrem E-Mail-Programm geöffnet. Auf dieser Website werden noch keine Daten gespeichert.",
+    "emailSubject": "MIRITAI Projektanfrage"
+  }
+}
