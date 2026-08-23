@@ -27,8 +27,14 @@ function DecodedNavLabel({ label }: { label: string }) {
 
 export default function Navbar() {
   const t = useTranslations("nav");
+  const home = useTranslations("home");
+  const work = useTranslations("work");
   const [open,setOpen] = useState(false);
-  const items = [{ href: "/#services", label: t("services") },{ href: "/#approach", label: t("approach") }];
+  const developmentItems = [
+    { href: "/services", label: t("services"), children:[1,2,3].map((n)=>({href:`/services#${["data-analytics","digital-workers","web-apps"][n-1]}`,label:home(`service${n}Title`)})) },
+    { href: "/work", label: t("work"), children:[1,2,3].map((n)=>({href:`/work#work-${n}`,label:work(`group${n}Label`)})) }
+  ];
+  const items = process.env.NEXT_PUBLIC_SHOW_DEVELOPMENT_PAGES === "true" ? developmentItems : [];
   useEffect(() => {
     if (!open) return;
     const close = (event: KeyboardEvent) => { if (event.key === "Escape") setOpen(false); };
@@ -37,6 +43,6 @@ export default function Navbar() {
   },[open]);
   return <nav className="site-nav" aria-label="Main navigation"><div className="wrap nav-inner">
     <Link href="/" className="logo mirit-wordmark" aria-label="Miritai home"><span className="logo-main">MIRIT</span><span className="logo-ai">AI</span></Link>
-    <div className="nav-content"><div className="nav-links">{items.map((item) => <a key={item.href} href={item.href} aria-label={item.label}><DecodedNavLabel label={item.label}/></a>)}</div><Link href="/contact" className="button nav-cta">{t("start")} <span aria-hidden="true">↗</span></Link><div className="nav-utilities"><LanguageSwitcher/><ThemeToggle/><button className="menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}><span/><span/></button></div></div>
-  </div><div id="mobile-navigation" className={`mobile-navigation${open ? " is-open" : ""}`} aria-hidden={!open}><div className="mobile-navigation-links">{items.map((item,index) => <a key={item.href} href={item.href} tabIndex={open ? 0 : -1} onClick={() => setOpen(false)} style={{ "--menu-index": index } as React.CSSProperties}><span>0{index+1}</span><strong>{item.label}</strong><b aria-hidden="true">↗</b></a>)}</div><div className="mobile-navigation-footer"><p>Small systems. Serious leverage.</p><span>MIRITAI / 01—26</span></div></div></nav>;
+    <div className="nav-content"><div className="nav-links">{items.map((item) => <div className="nav-menu-group" key={item.href}><Link className="nav-menu-trigger" href={item.href} aria-label={item.label}><DecodedNavLabel label={item.label}/><span aria-hidden="true">⌄</span></Link><div className="nav-submenu">{item.children.map((child,index)=><Link href={child.href} key={child.href}><span>0{index+1}</span><strong>{child.label}</strong><b aria-hidden="true">↗</b></Link>)}</div></div>)}</div><Link href="/contact" className="button nav-cta">{t("start")} <span aria-hidden="true">↗</span></Link><div className="nav-utilities"><LanguageSwitcher/><ThemeToggle/><button className="menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-navigation" aria-label={open ? "Close menu" : "Open menu"} onClick={() => setOpen(!open)}><span/><span/></button></div></div>
+  </div><div id="mobile-navigation" className={`mobile-navigation${open ? " is-open" : ""}`} aria-hidden={!open}><div className="mobile-navigation-links">{items.map((item,index) => <div className="mobile-nav-group" key={item.href} style={{ "--menu-index": index } as React.CSSProperties}><Link className="mobile-nav-primary" href={item.href} tabIndex={open ? 0 : -1} onClick={() => setOpen(false)}><span>0{index+1}</span><strong>{item.label}</strong><b aria-hidden="true">↗</b></Link><div className="mobile-nav-children">{item.children.map(child=><Link href={child.href} key={child.href} tabIndex={open ? 0 : -1} onClick={()=>setOpen(false)}>{child.label}<span aria-hidden="true">→</span></Link>)}</div></div>)}</div><div className="mobile-navigation-footer"><p>Small systems. Serious leverage.</p><span>MIRITAI / 01—26</span></div></div></nav>;
 }
