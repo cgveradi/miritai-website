@@ -16,9 +16,8 @@ function ServiceGlyph({ index }: { index: number }) {
 export default function Home() {
   const t = useTranslations("home");
   const ticker = t.raw("ticker") as string[];
-  const showDevelopmentPages = process.env.NEXT_PUBLIC_SHOW_DEVELOPMENT_PAGES === "true";
   const servicePaths = ["/services#data-analytics","/services#digital-workers","/services#web-apps"];
-  const services = [1, 2, 3].map((n) => ({ title: t(`service${n}Title`), text: t(`service${n}Text`), href: showDevelopmentPages ? servicePaths[n-1] : null }));
+  const services = [1, 2, 3].map((n) => ({ title: t(`service${n}Title`), text: t(`service${n}Text`), href: servicePaths[n-1] }));
   const steps = [1, 2, 3, 4].map((n) => ({ label: t(`step${n}Label`), title: t(`step${n}Title`), text: t(`step${n}Text`) }));
   return <><Navbar/><main>
     <header className="hero" id="top"><div className="hero-grid"/><i className="cross cross-a"/><i className="cross cross-b"/><div className="wrap hero-inner"><div className="hero-copy"><p className="eyebrow">{t("eyebrow")}</p><h1>MIRIT<span>AI</span></h1><p className="hero-lead"><b>{t("leadA")}</b> <em>{t("leadB")}</em></p><p className="hero-intro">{t("intro")}</p><div className="hero-actions"><Link href="/contact" className="button button-solid">{t("cta")} <span aria-hidden="true">↗</span></Link><a href="#services" className="button">{t("services")} <span aria-hidden="true">↓</span></a></div></div><div className="hero-visual"><SystemMap/></div></div><div className="ticker hero-ticker" aria-hidden="true"><div className="ticker-track">{[0,1].map(group=><div className="ticker-group" key={group}>{[0,1,2].flatMap(repeat=>ticker.map((item,index)=><span key={`${group}-${repeat}-${item}-${index}`}>{item} <b>✦</b></span>))}</div>)}</div></div></header>

@@ -23,7 +23,7 @@
     "buildEyebrow": "Was wir entwickeln",
     "buildTitle": "Nützliche Systeme, bewusst klein gehalten.",
     "buildIntro": "Wir beginnen mit einem einzigen Engpass. Jede Zusammenarbeit soll etwas hervorbringen, das Ihr Team wirklich nutzen kann – keine Folien über Transformation.",
-    "service1Title": "Daten- und Analysesysteme",
+    "service1Title": "Data & Analytics Engineering",
     "service1Text": "Wir führen verstreute Daten in verlässlichen Berichten, Dashboards und Ansichten für bessere Entscheidungen zusammen.",
     "service2Title": "Digitale Mitarbeiter und Automatisierung",
     "service2Text": "Wir übergeben wiederkehrende Arbeit an gezielte Abläufe und Assistenten, die Ihre Werkzeuge verbinden und Menschen die Kontrolle lassen.",
@@ -63,7 +63,7 @@
     "rights": "Alle Rechte vorbehalten."
   },
   "dataAnalytics": {
-    "module": "Modul 01 / Telemetrie und Datensysteme",
+    "module": "Modul 01 / Data & Analytics Engineering",
     "title": "Aus verstreuten Daten wird eine klare Richtung.",
     "intro": "Wir ordnen die Zahlen, die Ihr Unternehmen bereits erzeugt, zu verlässlichen Berichten, Dashboards und Datensystemen, die Entscheidungen erleichtern.",
     "cta": "Datenprojekt besprechen",
@@ -89,6 +89,7 @@
     "capability3Title": "Analyse und Messung",
     "capability3Text": "Gezielte Untersuchung von Leistung, Mustern und Chancen mit Schlussfolgerungen, die handlungsfähig machen.",
     "capability3Detail": "Geschäftsanalyse · Segmentierung · Leistungsmessung",
+    "deliverables": ["Dashboards & Berichte", "Datenmodellierung", "ETL- & ELT-Pipelines", "Datenintegration", "Datenqualitätsprüfungen", "Data Warehouses", "KPI-Design", "Geschäftsanalyse"],
     "storyEyebrow": "Illustrative Systemgeschichte",
     "storyTitle": "So kann die Veränderung eines Berichtssystems aussehen.",
     "storyBadge": "Illustratives Beispiel — keine Kundendaten",
@@ -126,6 +127,9 @@
     "step3Label": "03 · ÜBERGEBEN",
     "step3Title": "In die wöchentliche Arbeit bringen",
     "step3Text": "Die erste Version wird mit den Nutzern getestet, dokumentiert und mit einem klaren Ausbaupfad übergeben.",
+    "step4Label": "04 · BETREUEN",
+    "step4Title": "Zuverlässig halten",
+    "step4Text": "Wir überwachen das System, beheben Probleme und verbessern es, wenn sich Ihre Anforderungen ändern.",
     "closingEyebrow": "Beginnen Sie mit den Zahlen, die Sie bereits haben.",
     "closingTitle": "Welche Entscheidung dauert zu lange, weil die Daten unklar sind?"
   },
@@ -153,12 +157,16 @@
     "step3Text": "Werkzeuge verbinden und reale Fälle testen.",
     "step4Title": "Betreiben",
     "step4Text": "System überwachen, dokumentieren und verbessern.",
-    "deliverablesEyebrow": "Mögliche Ergebnisse",
+    "deliverablesEyebrow": "Was Sie erhalten können",
     "deliverables": [
       "Dokumentenverarbeitung",
       "Postfach- und CRM-Abläufe",
       "KI-gestützte Recherche",
-      "Interne Aufgabenagenten"
+      "KI-Assistenten",
+      "Recherche-Automatisierung",
+      "Werkzeugintegrationen",
+      "Menschliche Freigabeprozesse",
+      "Monitoring & Support"
     ]
   },
   "webApps": {
@@ -184,12 +192,16 @@
     "step3Text": "Responsives Produkt und Integrationen umsetzen.",
     "step4Title": "Starten",
     "step4Text": "Testen, messen, dokumentieren und einsetzen.",
-    "deliverablesEyebrow": "Mögliche Ergebnisse",
+    "deliverablesEyebrow": "Was Sie erhalten können",
     "deliverables": [
       "Interne Werkzeuge",
       "Kundenportale",
       "Fokussierte Web-Apps",
-      "Landingpages"
+      "Landingpages",
+      "Workflow-Oberflächen",
+      "API-Integrationen",
+      "Responsive Redesigns",
+      "Wartung & Support"
     ]
   },
   "work": {

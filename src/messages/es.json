@@ -23,7 +23,7 @@
     "buildEyebrow": "Lo que creamos",
     "buildTitle": "Sistemas útiles, deliberadamente pequeños.",
     "buildIntro": "Empezamos por un único obstáculo. Cada colaboración debe producir algo que tu equipo pueda usar, no una presentación sobre transformación.",
-    "service1Title": "Sistemas de datos y analítica",
+    "service1Title": "Ingeniería de datos y analítica",
     "service1Text": "Reunimos datos dispersos en informes, paneles y vistas fiables que tu equipo puede usar para tomar decisiones.",
     "service2Title": "Trabajadores digitales y automatización",
     "service2Text": "Delegamos el trabajo repetitivo en flujos y asistentes que conectan tus herramientas manteniendo el control humano.",
@@ -63,7 +63,7 @@
     "rights": "Todos los derechos reservados."
   },
   "dataAnalytics": {
-    "module": "Módulo 01 / Telemetría y sistemas de datos",
+    "module": "Módulo 01 / Ingeniería de datos y analítica",
     "title": "Convierte datos dispersos en una dirección clara.",
     "intro": "Organizamos los números que tu empresa ya produce en informes, paneles y sistemas de datos fiables que facilitan las decisiones.",
     "cta": "Hablemos de tus datos",
@@ -89,6 +89,7 @@
     "capability3Title": "Análisis y medición",
     "capability3Text": "Investigación enfocada del rendimiento, los patrones y las oportunidades con conclusiones accionables.",
     "capability3Detail": "Análisis de negocio · Segmentación · Medición del rendimiento",
+    "deliverables": ["Paneles e informes", "Modelado de datos", "Pipelines ETL y ELT", "Integración de datos", "Controles de calidad", "Almacenes de datos", "Diseño de KPI", "Análisis de negocio"],
     "storyEyebrow": "Historia ilustrativa del sistema",
     "storyTitle": "Cómo puede verse una transformación de reporting.",
     "storyBadge": "Ejemplo ilustrativo — sin datos de clientes",
@@ -126,6 +127,9 @@
     "step3Label": "03 · ENTREGAR",
     "step3Title": "Llevarlo al trabajo semanal",
     "step3Text": "Probamos la primera versión con sus usuarios, la documentamos y la entregamos con una ruta clara para crecer.",
+    "step4Label": "04 · SOPORTE",
+    "step4Title": "Mantenerlo fiable",
+    "step4Text": "Supervisamos el sistema, resolvemos problemas y lo mejoramos cuando cambian tus necesidades.",
     "closingEyebrow": "Empieza con los números que ya tienes.",
     "closingTitle": "¿Qué decisión tarda demasiado porque los datos no están claros?"
   },
@@ -153,12 +157,16 @@
     "step3Text": "Conectar las herramientas y probar casos reales.",
     "step4Title": "Operar",
     "step4Text": "Supervisar, documentar y mejorar el sistema.",
-    "deliverablesEyebrow": "Posibles entregables",
+    "deliverablesEyebrow": "Qué puedes obtener",
     "deliverables": [
       "Procesamiento de documentos",
       "Flujos de correo y CRM",
       "Investigación asistida por IA",
-      "Agentes de tareas internos"
+      "Asistentes de IA",
+      "Automatización de investigación",
+      "Integraciones de herramientas",
+      "Flujos de aprobación humana",
+      "Supervisión y soporte"
     ]
   },
   "webApps": {
@@ -184,12 +192,16 @@
     "step3Text": "Crear el producto adaptable y sus integraciones.",
     "step4Title": "Lanzar",
     "step4Text": "Probar, medir, documentar y ponerlo en uso.",
-    "deliverablesEyebrow": "Posibles entregables",
+    "deliverablesEyebrow": "Qué puedes obtener",
     "deliverables": [
       "Herramientas internas",
       "Portales de clientes",
       "Apps web enfocadas",
-      "Landing pages"
+      "Landing pages",
+      "Interfaces de flujo de trabajo",
+      "Integraciones API",
+      "Rediseños adaptables",
+      "Mantenimiento y soporte"
     ]
   },
   "work": {

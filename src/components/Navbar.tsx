@@ -28,13 +28,10 @@ function DecodedNavLabel({ label }: { label: string }) {
 export default function Navbar() {
   const t = useTranslations("nav");
   const home = useTranslations("home");
-  const work = useTranslations("work");
   const [open,setOpen] = useState(false);
-  const developmentItems = [
-    { href: "/services", label: t("services"), children:[1,2,3].map((n)=>({href:`/services#${["data-analytics","digital-workers","web-apps"][n-1]}`,label:home(`service${n}Title`)})) },
-    { href: "/work", label: t("work"), children:[1,2,3].map((n)=>({href:`/work#work-${n}`,label:work(`group${n}Label`)})) }
+  const items = [
+    { href: "/services", label: t("services"), children:[1,2,3].map((n)=>({href:`/services#${["data-analytics","digital-workers","web-apps"][n-1]}`,label:home(`service${n}Title`)})) }
   ];
-  const items = process.env.NEXT_PUBLIC_SHOW_DEVELOPMENT_PAGES === "true" ? developmentItems : [];
   useEffect(() => {
     if (!open) return;
     const close = (event: KeyboardEvent) => { if (event.key === "Escape") setOpen(false); };
