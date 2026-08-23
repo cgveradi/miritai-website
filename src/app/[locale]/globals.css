@@ -191,6 +191,8 @@
 .footer-main>div p{max-width:390px;margin:14px 0 0;color:var(--muted);font-size:.9rem;line-height:1.55}
 .footer-mirit-link{flex:0 0 auto;background:color-mix(in srgb,var(--card) 76%,transparent)}
 .compact-footer .footer-bottom{padding-top:24px}
+.compact-footer .footer-bottom a{color:var(--white);text-decoration-color:color-mix(in srgb,var(--cyan) 55%,transparent);text-decoration-line:underline;text-decoration-thickness:1px;text-underline-offset:.25rem;transition:color .2s,text-decoration-color .2s}
+.compact-footer .footer-bottom a:hover{color:var(--cyan);text-decoration-color:var(--cyan)}
 @media(max-width:650px){.footer-main{align-items:flex-start;flex-direction:column;padding:38px 0}.compact-footer .footer-bottom{gap:12px}.compact-footer .footer-bottom span:last-child{max-width:260px;line-height:1.5}}
 
 /* Use the full contact composition instead of leaving the introduction top-heavy. */
@@ -198,3 +200,47 @@
 .contact-grid>section{display:flex;min-height:680px;flex-direction:column;padding:12px 0}
 .contact-grid>section .contact-small{margin-top:auto;padding-top:64px}
 @media(max-width:900px){.contact-grid>section{min-height:auto}.contact-grid>section .contact-small{margin-top:30px;padding-top:0}}
+
+/* Three focused service pillars */
+.bento{grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:270px}
+.service-card,.service-1,.service-3{grid-column:span 1;min-height:270px}
+.service-3{background:linear-gradient(155deg,#101214,#141126)}
+:root:not(.dark) .service-3{background:linear-gradient(155deg,#ded5c7,#d2cde2)}
+@media(max-width:900px){.bento{grid-template-columns:1fr}.service-card{min-height:230px}}
+
+.service-glyph{position:absolute;top:58px;left:50%;width:min(47%,180px);height:auto;overflow:visible;color:var(--cyan);opacity:.72;filter:drop-shadow(0 0 10px color-mix(in srgb,currentColor 22%,transparent));transform:translateX(-50%)}
+.service-card:nth-child(2) .service-glyph{color:var(--violet)}
+.service-card:nth-child(3) .service-glyph{color:color-mix(in srgb,var(--cyan) 60%,var(--violet))}
+.service-glyph path,.service-glyph rect,.service-glyph circle{vector-effect:non-scaling-stroke}
+.service-glyph .glyph-grid,.service-glyph .glyph-frame{fill:none;stroke:currentColor;stroke-width:1;opacity:.28}
+.service-glyph .glyph-signal{fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:12 8;animation:glyph-signal 2.6s linear infinite}
+.service-glyph circle{fill:var(--bg);stroke:currentColor;stroke-width:1.3}
+.service-glyph .glyph-core{fill:color-mix(in srgb,var(--card) 78%,transparent);stroke-width:1.5}
+.service-glyph .glyph-core-lines{fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:round;opacity:.8}
+.service-glyph .glyph-task rect{fill:color-mix(in srgb,var(--violet) 12%,var(--card));stroke:currentColor;stroke-width:1;filter:drop-shadow(0 0 5px color-mix(in srgb,currentColor 36%,transparent))}
+.service-glyph .glyph-task circle{fill:currentColor;stroke:none}
+.service-glyph .glyph-task path{fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:round;opacity:.72}
+.service-card:nth-child(2) .service-glyph .glyph-signal{animation-delay:-1.6s}
+.service-card:nth-child(3) .service-glyph .glyph-signal{animation-delay:-3.2s}
+.service-card h3{font-size:clamp(1.25rem,1.45vw,1.48rem)}
+@keyframes glyph-signal{from{stroke-dashoffset:40;opacity:.86}to{stroke-dashoffset:0;opacity:.86}}
+@media(max-width:900px){.service-glyph{top:52px;width:150px}.service-card h3{font-size:1.35rem}}
+@media(max-width:520px){.service-glyph{top:48px;width:100px;opacity:.58}}
+@media(prefers-reduced-motion:reduce){.service-glyph .glyph-signal{animation:none;stroke-dashoffset:0}}
+
+/* Hero instrument refinement */
+.hero h1{letter-spacing:-.042em}
+.hero-visual .node-b i{background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--cyan) 68%,transparent) 16%,color-mix(in srgb,var(--cyan) 68%,transparent) 84%,transparent);opacity:.72}
+.hero-visual .node-c i{background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--violet) 68%,transparent) 16%,color-mix(in srgb,var(--violet) 68%,transparent) 84%,transparent);opacity:.72}
+
+/* Light mode: keep the paper calm and let the signal system recede */
+:root:not(.dark) .hero-visual .node{border-color:rgba(40,38,31,.11);background:rgba(231,223,210,.22);box-shadow:inset 0 1px rgba(255,255,255,.28);opacity:.58}
+:root:not(.dark) .hero-visual .node-a i,:root:not(.dark) .hero-visual .node-d i{opacity:.52;box-shadow:0 0 5px currentColor}
+:root:not(.dark) .hero-visual .node-b i,:root:not(.dark) .hero-visual .node-c i{opacity:.48}
+:root:not(.dark) .service-card{border-color:rgba(40,38,31,.13);box-shadow:inset 0 1px rgba(255,255,255,.26)}
+:root:not(.dark) .service-1{background:linear-gradient(155deg,#ddd6ca,#d4d8d0)}
+:root:not(.dark) .service-2{background:linear-gradient(155deg,#ddd6ca,#d9d3ca)}
+:root:not(.dark) .service-3{background:linear-gradient(155deg,#ddd6ca,#d8d4df)}
+:root:not(.dark) .closing{background:linear-gradient(145deg,#101214 0%,#17191c 62%,#1d1a24 100%);color:#f4f4f0}
+
+.closing::after{display:none}
