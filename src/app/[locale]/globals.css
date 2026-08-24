@@ -49,7 +49,11 @@
 .contact-form input,.contact-form textarea{width:100%;border:0;border-bottom:1px solid var(--line-strong);border-radius:0;padding:11px 0;background:transparent;color:var(--white);font:400 1rem/1.5 var(--font-sans),sans-serif;outline:none;resize:vertical}
 .contact-form input:focus,.contact-form textarea:focus{border-color:var(--cyan)}
 .contact-form .button{justify-self:start;margin-top:5px}
+.contact-form .button:disabled{cursor:wait;opacity:.62;transform:none}
 .contact-form>p{margin:0;color:var(--muted);font-size:.72rem;line-height:1.55}
+.contact-form-status.is-success{color:var(--cyan)}
+.contact-form-status.is-error{color:#e77f75}
+.contact-honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
 
 @media(max-width:900px){
   .hero .wrap{width:min(100% - 36px,1180px)}

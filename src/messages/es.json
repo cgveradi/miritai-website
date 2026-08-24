@@ -253,8 +253,10 @@
     "email": "Correo electrónico",
     "company": "Empresa (opcional)",
     "project": "¿Qué te gustaría mejorar?",
-    "submit": "Enviar correo",
-    "formNote": "Esto abre un mensaje preparado en tu aplicación de correo. Este sitio web todavía no almacena ningún dato.",
-    "emailSubject": "Consulta sobre un proyecto MIRITAI"
+    "submit": "Enviar mensaje",
+    "sending": "Enviando…",
+    "success": "Gracias. Tu mensaje ha sido enviado. Te responderemos en un plazo de dos días laborables.",
+    "error": "No hemos podido guardar tu mensaje. Inténtalo de nuevo en unos instantes.",
+    "formNote": "Tus datos se utilizarán únicamente para responder a esta consulta."
   }
 }

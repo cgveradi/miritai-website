@@ -1,28 +1,40 @@
 "use client";
 
-import { FormEvent } from "react";
+import { FormEvent, useState } from "react";
 import { useTranslations } from "next-intl";
 
 export default function ContactForm() {
   const t = useTranslations("contact");
-  function submit(event: FormEvent<HTMLFormElement>) {
+  const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
+
+  async function submit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    const body = [
-      `${t("name")}: ${data.get("name")}`,
-      `${t("email")}: ${data.get("email")}`,
-      `${t("company")}: ${data.get("company") || "—"}`,
-      "",
-      `${t("project")}:`,
-      String(data.get("project")),
-    ].join("\n");
-    window.location.href = `mailto:hello@miritai.com?subject=${encodeURIComponent(t("emailSubject"))}&body=${encodeURIComponent(body)}`;
+    const form = event.currentTarget;
+    const data = new FormData(form);
+    setStatus("sending");
+
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(Object.fromEntries(data)),
+      });
+
+      if (!response.ok) throw new Error("Contact submission failed");
+      form.reset();
+      setStatus("success");
+    } catch {
+      setStatus("error");
+    }
   }
+
   return <form className="contact-form" onSubmit={submit}>
-    <label>{t("name")}<input name="name" autoComplete="name" required/></label>
-    <label>{t("email")}<input name="email" type="email" autoComplete="email" required/></label>
-    <label>{t("company")}<input name="company" autoComplete="organization"/></label>
-    <label>{t("project")}<textarea name="project" rows={7} required/></label>
-    <button className="button button-solid" type="submit">{t("submit")} <span aria-hidden="true">↗</span></button>
+    <label>{t("name")}<input name="name" autoComplete="name" maxLength={100} required/></label>
+    <label>{t("email")}<input name="email" type="email" autoComplete="email" maxLength={254} required/></label>
+    <label>{t("company")}<input name="company" autoComplete="organization" maxLength={150}/></label>
+    <label>{t("project")}<textarea name="project" rows={7} maxLength={5000} required/></label>
+    <label className="contact-honeypot" aria-hidden="true">Website<input name="website" tabIndex={-1} autoComplete="off"/></label>
+    <button className="button button-solid" type="submit" disabled={status === "sending"}>{status === "sending" ? t("sending") : t("submit")} <span aria-hidden="true">↗</span></button>
+    <p className={`contact-form-status is-${status}`} role="status" aria-live="polite">{status === "success" ? t("success") : status === "error" ? t("error") : t("formNote")}</p>
   </form>;
 }

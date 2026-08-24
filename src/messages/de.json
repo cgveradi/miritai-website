@@ -253,8 +253,10 @@
     "email": "E-Mail",
     "company": "Unternehmen (optional)",
     "project": "Was möchten Sie verbessern?",
-    "submit": "E-Mail senden",
-    "formNote": "Dadurch wird eine vorbereitete Nachricht in Ihrem E-Mail-Programm geöffnet. Auf dieser Website werden noch keine Daten gespeichert.",
-    "emailSubject": "MIRITAI Projektanfrage"
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank. Ihre Nachricht wurde gesendet. Wir antworten innerhalb von zwei Werktagen.",
+    "error": "Ihre Nachricht konnte nicht gespeichert werden. Versuchen Sie es gleich noch einmal.",
+    "formNote": "Ihre Angaben werden ausschließlich zur Beantwortung dieser Anfrage verwendet."
   }
 }

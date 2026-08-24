@@ -17,5 +17,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en" suppressHydrationWarning><head><script dangerouslySetInnerHTML={{ __html: `(() => { try { const saved = localStorage.getItem('miritai-theme'); const isDark = saved ? saved === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches; document.documentElement.classList.toggle('dark', isDark); } catch {} })()` }} /></head><body>{children}</body></html>;
+  return <html lang="en" suppressHydrationWarning><head><script dangerouslySetInnerHTML={{ __html: `(() => { try { const saved = localStorage.getItem('miritai-theme'); const isDark = saved ? saved === 'dark' : true; document.documentElement.classList.toggle('dark', isDark); } catch {} })()` }} /></head><body>{children}</body></html>;
 }
