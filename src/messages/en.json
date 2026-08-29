@@ -1,5 +1,5 @@
 {
-  "nav": { "services": "Services", "approach": "Approach", "work": "Work", "start": "Let’s talk" },
+  "nav": { "services": "Services", "approach": "Approach", "work": "Work", "cases": "Cases", "about": "About", "start": "Start a project" },
   "home": {
     "eyebrow": "Data, AI & Software Studio",
     "leadA": "Small systems.",
@@ -12,7 +12,9 @@
     "service1Title": "Data & analytics engineering", "service1Text": "Bring scattered data together in reliable reporting, dashboards, and decision-ready views your team can actually use.",
     "service2Title": "Digital workers & automation", "service2Text": "Hand repetitive work to focused workflows and assistants that connect your tools while keeping people in control.",
     "service3Title": "Web apps & internal tools", "service3Text": "Give your team or customers a focused portal, interface, landing page, or custom tool built around one clear job.",
-    "approachEyebrow": "How we work", "approachTitle": "Built for real work, ready to use.", "approachIntro": "Four checkpoints keep the work understandable, useful, and maintainable.",
+    "service1Problem": "Scattered numbers", "service1Outcome": "Clear decisions", "service2Problem": "Repetitive work", "service2Outcome": "Reliable workflows", "service3Problem": "Awkward processes", "service3Outcome": "Better tools",
+    "fieldProblem": "The friction", "fieldResponse": "What we change", "fieldOutcome": "The outcome", "fieldNote": "Start with the part of the work that should feel easier.",
+    "approachEyebrow": "How we work", "approachTitle": "From first question to working system.", "approachIntro": "Four checkpoints keep the work understandable, useful, and maintainable.",
     "step1Label": "01 · LISTEN", "step1Title": "Find the friction", "step1Text": "We look at how the task works today and identify what is genuinely slowing the team down.",
     "step2Label": "02 · SCOPE", "step2Title": "Choose the right solution", "step2Text": "We define the right outcome, scope, and priorities for the work.",
     "step3Label": "03 · BUILD", "step3Title": "Ship something usable", "step3Text": "A working version arrives early and improves through short feedback cycles.",

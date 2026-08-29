@@ -1,9 +1,11 @@
 {
   "nav": {
+    "cases": "Projekte",
+    "about": "Über uns",
     "services": "Leistungen",
     "approach": "Vorgehen",
     "work": "Projekte",
-    "start": "Kontakt"
+    "start": "Projekt starten"
   },
   "home": {
     "eyebrow": "Studio für Daten, KI und Software",
@@ -29,8 +31,10 @@
     "service2Text": "Wir übergeben wiederkehrende Arbeit an gezielte Abläufe und Assistenten, die Ihre Werkzeuge verbinden und Menschen die Kontrolle lassen.",
     "service3Title": "Webanwendungen und interne Werkzeuge",
     "service3Text": "Wir entwickeln Portale, Oberflächen, Landingpages und maßgeschneiderte Werkzeuge für eine klar umrissene Aufgabe.",
+    "service1Problem": "Verstreute Zahlen", "service1Outcome": "Klare Entscheidungen", "service2Problem": "Wiederkehrende Arbeit", "service2Outcome": "Verlässliche Abläufe", "service3Problem": "Umständliche Prozesse", "service3Outcome": "Bessere Werkzeuge",
+    "fieldProblem": "Die Reibung", "fieldResponse": "Was wir ändern", "fieldOutcome": "Das Ergebnis", "fieldNote": "Beginnen wir mit dem Teil der Arbeit, der leichter werden sollte.",
     "approachEyebrow": "Wie wir arbeiten",
-    "approachTitle": "Eine kleine erste Version, an der Realität ausgerichtet.",
+    "approachTitle": "Von der ersten Frage zum funktionierenden System.",
     "approachIntro": "Vier Etappen sorgen dafür, dass die Arbeit verständlich, nützlich und wartbar bleibt.",
     "step1Label": "01 · ZUHÖREN",
     "step1Title": "Reibung finden",

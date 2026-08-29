@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://miritai.com"),
-  title: "MIRITAI — Data, AI & Software Studio",
+  title: "MIRITAI | Data, AI & Software Studio",
   description: "Practical data tools, focused automations, and lightweight web apps for small teams.",
   icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   openGraph: {

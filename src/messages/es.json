@@ -1,9 +1,11 @@
 {
   "nav": {
+    "cases": "Casos",
+    "about": "Acerca de",
     "services": "Servicios",
     "approach": "Enfoque",
     "work": "Proyectos",
-    "start": "Hablemos"
+    "start": "Iniciar un proyecto"
   },
   "home": {
     "eyebrow": "Estudio de datos, IA y software",
@@ -29,8 +31,10 @@
     "service2Text": "Delegamos el trabajo repetitivo en flujos y asistentes que conectan tus herramientas manteniendo el control humano.",
     "service3Title": "Aplicaciones web y herramientas internas",
     "service3Text": "Creamos portales, interfaces, landing pages y herramientas a medida centradas en una tarea concreta.",
+    "service1Problem": "Datos dispersos", "service1Outcome": "Decisiones claras", "service2Problem": "Trabajo repetitivo", "service2Outcome": "Flujos fiables", "service3Problem": "Procesos incómodos", "service3Outcome": "Mejores herramientas",
+    "fieldProblem": "La fricción", "fieldResponse": "Lo que cambiamos", "fieldOutcome": "El resultado", "fieldNote": "Empecemos por la parte del trabajo que debería ser más fácil.",
     "approachEyebrow": "Cómo trabajamos",
-    "approachTitle": "Una primera versión pequeña, creada para la realidad.",
+    "approachTitle": "De la primera pregunta a un sistema que funciona.",
     "approachIntro": "Cuatro puntos de control mantienen el trabajo comprensible, útil y fácil de mantener.",
     "step1Label": "01 · ESCUCHAR",
     "step1Title": "Encontrar el obstáculo",
