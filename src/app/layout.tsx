@@ -27,12 +27,12 @@ const organization = {
   name: "MiritAI",
   alternateName: "MIRITAI",
   url: "https://miritai.com",
-  logo: "https://miritai.com/favicon.svg",
+  logo: "https://miritai.com/miritai-mark.svg",
   description: "An independent data, AI, automation, and software studio for small teams.",
   founder: { "@type": "Person", name: "Carlos Vera Diago", url: "https://miritai.com/en/about" },
   sameAs: ["https://www.linkedin.com/in/carlosveradiago", "https://github.com/cgveradi"],
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return <html lang="en" suppressHydrationWarning><head><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(organization)}}/><script dangerouslySetInnerHTML={{ __html: `(() => { try { const saved = localStorage.getItem('miritai-theme'); const isDark = saved ? saved === 'dark' : true; document.documentElement.classList.toggle('dark', isDark); } catch {} })()` }} /></head><body>{children}</body></html>;
+  return <html lang="en" className="dark" suppressHydrationWarning><head><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(organization)}}/><script dangerouslySetInnerHTML={{ __html: `(() => { try { const saved = localStorage.getItem('miritai-theme'); const isDark = saved ? saved === 'dark' : true; document.documentElement.classList.toggle('dark', isDark); } catch {} })()` }} /></head><body>{children}</body></html>;
 }

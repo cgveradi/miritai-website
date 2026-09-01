@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/favicon.svg" width="64" alt="MiritAI logo">
+  <img src="public/miritai-mark.svg" width="72" alt="MiritAI geometric orbit logo">
   <h1>MiritAI</h1>
   <p>Website for an independent data, AI, automation, and software studio.</p>
   <p><a href="https://miritai.com">miritai.com</a></p>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">MiritAI</title>
+  <desc id="desc">A faceted geometric M crossed by an orbital signal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="22" y1="18" x2="138" y2="142" gradientUnits="userSpaceOnUse"><stop stop-color="#111821"/><stop offset="1" stop-color="#080b10"/></linearGradient>
+    <linearGradient id="m" x1="42" y1="48" x2="118" y2="116" gradientUnits="userSpaceOnUse"><stop stop-color="#75e5df"/><stop offset=".55" stop-color="#21a9a9"/><stop offset="1" stop-color="#087f82"/></linearGradient>
+    <clipPath id="frame"><rect x="8" y="8" width="144" height="144" rx="36"/></clipPath>
+  </defs>
+  <rect x="8" y="8" width="144" height="144" rx="36" fill="url(#bg)"/>
+  <g clip-path="url(#frame)">
+    <ellipse cx="80" cy="80" rx="65" ry="35" transform="rotate(-24 80 80)" fill="none" stroke="#75e5df" stroke-opacity=".52" stroke-width="2"/>
+    <ellipse cx="80" cy="80" rx="54" ry="27" transform="rotate(-24 80 80)" fill="none" stroke="#75e5df" stroke-opacity=".12"/>
+  </g>
+  <path d="M39 117V45h20l21 38 21-38h20v72h-20V77l-16 29H75L59 77v40Z" fill="url(#m)"/>
+  <path d="M39 45h20l21 38-10 18-21-38-10 7Z" fill="#9af1ec" fill-opacity=".74"/>
+  <path d="m80 83 21-38h20l-31 57Z" fill="#087f82" fill-opacity=".88"/>
+  <path d="m80 83 10 19-5 9H75l-5-10Z" fill="#d59a57" fill-opacity=".72"/>
+  <circle cx="132" cy="47" r="6" fill="#e8874f"/>
+  <circle cx="132" cy="47" r="10" fill="none" stroke="#e8874f" stroke-opacity=".18"/>
+</svg>
