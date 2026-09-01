@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   authors: [{ name: "Carlos Vera Diago", url: "https://miritai.com/en/about" }],
   creator: "MiritAI",
   publisher: "MiritAI",
-  icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
   openGraph: {
     title: "MIRITAI — Small systems. Serious leverage.",
     description: "Practical data tools, focused automations, and lightweight web apps for small teams.",
