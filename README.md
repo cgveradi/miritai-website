@@ -1,25 +1,13 @@
-# MIRITAI
+<div align="center">
+  <img src="public/favicon.svg" width="64" alt="MiritAI logo">
+  <h1>MiritAI</h1>
+  <p>Website for an independent data, AI, automation, and software studio.</p>
+  <p><a href="https://miritai.com">miritai.com</a></p>
+</div>
 
-![MIRITAI Sputnik signal system](public/mirit-sputnik-thumbnail.png)
+Built with Next.js, TypeScript, Tailwind CSS, and `next-intl`.
 
-MIRITAI is the data, automation, and software practice within the broader [MIRIT](https://mirit.org) ecosystem.
-
-The studio starts with deliberately small, useful systems: practical data analysis, focused workflow automation, lightweight web applications, and simple integrations for small teams.
-
-> Small systems. Serious leverage.
-
-## Current status
-
-This repository contains the first public MIRITAI website and its English and Russian experiences. The project is intentionally focused while the studio establishes its first services and working relationships.
-
-## Built with
-
-- Next.js App Router and TypeScript
-- Tailwind CSS
-- `next-intl` for English and Russian localization
-- Vercel for deployment
-
-## Local development
+## Development
 
 ```bash
 npm install
@@ -27,10 +15,3 @@ npm run dev
 ```
 
 Open [localhost:3000](http://localhost:3000).
-
-## Related
-
-- Website: [miritai.com](https://miritai.com)
-- MIRIT: [mirit.org](https://mirit.org)
-
-© 2026 MIRITAI · Research · Culture · Innovation
